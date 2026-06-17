@@ -1,0 +1,73 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+.container{
+    width: 1140px;
+  margin: 0 auto;
+ 
+}
+a{
+    text-decoration: none;
+
+}
+ul,ol{
+    list-style-type: none;
+}
+
+/* common css end */
+
+.topHeader{
+    background-color: red;
+   
+}
+.headerPart{
+    padding: 20px;
+    background-color: rgba(247, 218, 240, 0.233);
+    
+}
+.topHeader .container{
+    padding: 10px;
+    display: flex; 
+   
+}
+.topHeader .container .call{
+    padding: 0 10px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+.topHeader .container .email{
+    padding: 0 10px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+.menuBar{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    display: flex;
+}
+
+
+
+.menuBar .menu ul li a{
+    padding: 0 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color:#212529;
+    
+}
+.menuBar .button a{
+    padding: 30px;
+    background-color: red;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+}
